@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #6a6a6a;
+    text-decoration: none;
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: #f9f9f9; 
+    font-size: 16px;
+}
+
+.Gorras h1 {
+    font-size: 36px;
+    color: #333;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+nav {
+    background-color: #00272d;
+    padding: 10px 0;
+}
+
+nav ul {
+    width: 80%;
+    margin: 0 auto;
+    list-style-type: none;
+    display: flex;
+    justify-content: center; 
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #bfac8b;
+}
+
+.contenido {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    width: 80%;
+    margin: 40px auto;
+}
+
+.contenido .modelos,
+.contenido .modelo2,
+.contenido .modelo3,
+.contenido .modelo4 {
+    width: 22%; 
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    overflow: hidden; 
+    transition: transform 0.3s ease-in-out;
+}
+
+.contenido .modelos:hover,
+.contenido .modelo2:hover,
+.contenido .modelo3:hover,
+.contenido .modelo4:hover {
+    transform: scale(1.05); 
+}
+
+.contenido .modelos img,
+.contenido .modelo2 img,
+.contenido .modelo3 img,
+.contenido .modelo4 img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover; 
+    border-bottom: 2px solid #6a6a6a; 
+}
+
+.contenido h2 {
+    color: #333;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.contenido p {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.piedepagina {
+    background-color: #00272d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+.piedepagina p {
+    font-size: 14px;
+}
+
+
